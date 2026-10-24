@@ -234,11 +234,11 @@ transform:translateY(var(--ty)) scale(var(--sc)) rotate(var(--r));transition:opa
 /* ╔═══════════ 1. PENGATURAN — EDIT DI SINI ═══════════╗ */
 var BRAND="RACUN ANAK KOS", TAGLINE="Teman cari barang buat hidup ngekos!";
 /* ▼ LINK LOGO (PNG persegi). Kosong "" = logo bawaan. */
-var LOGO_URL="";
+var LOGO_URL="https://i.ibb.co.com/mrmwWKNW/Gemini-Generated-Image-f8zsjmf8zsjmf8zs.jpg";
 /* ▼ LINK TIKTOK (kosong = tidak tampil). */
-var TIKTOK_URL="";
+var TIKTOK_URL="https://www.tiktok.com/@racun_anakkos";
 /* ▼ NOMOR WHATSAPP format 62812xxxxxxx (tanpa +, spasi, 0 depan). Kosong = tombol WA disembunyikan. */
-var WA_NUMBER="", WA_TEXT="Halo Racun Anak Kos, saya ingin bertanya tentang rekomendasi produk.";
+var WA_NUMBER="+6285166231963", WA_TEXT="Halo Racun Anak Kos, saya ingin bertanya tentang rekomendasi produk.";
 /* ▼ POPUP SELAMAT DATANG */
 var WELCOME_ON=true, WELCOME_TITLE="Selamat datang di Racun Anak Kos! 👋",
  WELCOME_TEXT="Teman cari barang buat hidup ngekos. Ketuk produk untuk lihat detail, ketuk ♡ untuk simpan ke Favorit, lalu cek produknya di marketplace. Sebagian tautan adalah tautan afiliasi.";
@@ -268,18 +268,9 @@ var CATS=[{id:"Semua Produk",icon:"🛍️"},{id:"Kamar & Storage",icon:"🛏️
  ▼ badge = "HOT"/"LARIS" (biru berdenyut) atau teks lain (hijau). "BARU" otomatis di 2 produk terakhir.
  ▼ Produk PALING ATAS tampil besar 2 kolom: taruh produk andalan di sana. */
 var PRODUCTS=[
- {code:"RAK-0005",name:"Tumbler Minum 1 Liter",category:"Dapur & Makan",image:"",emoji:"🥤",price:59000,badge:"HOT",description:"Botol besar untuk kuliah seharian, tahan panas dan dingin.",detail:"Botol besar untuk menemani kuliah seharian. Bahan tahan panas dan dingin, tutup rapat anti tumpah, muat di tas ransel maupun tempat gelas motor.\nCocok untuk anak kos yang ingin hemat beli minuman di luar.",affiliateUrl:"https://en.wikipedia.org/wiki/Vacuum_flask",active:true},
- {code:"RAK-0001",name:"Rak Sepatu Susun 4 Tingkat",category:"Kamar & Storage",image:"",emoji:"👟",price:0,description:"Rak ramping muat banyak sepatu, cocok untuk kamar kos sempit.",detail:"Rak ramping yang muat banyak sepatu dan sandal tanpa memakan tempat. Mudah dirakit tanpa alat khusus, cocok di depan pintu atau sudut kamar kos yang sempit.",affiliateUrl:"https://en.wikipedia.org/wiki/Bookcase",active:true},
+ {code:"RAK-0001",name:"Pompa Galon Elektrik",category:"Dapur & Makan",image:"https://i.ibb.co.com/tTLj2Ry4/IMG-20261024-234951.jpg",emoji:"",price:0,description:"Pompa galon elektrik praktis untuk mengalirkan air minum hanya dengan sekali tekan, tanpa repot mengangkat galon.",detail:"Cukup tekan tombol untuk mengalirkan air dengan mudah. Cocok untuk anak kos, rumah, maupun kantor.",affiliateUrl:"https://vt.tokopedia.com/t/ZS9yJdFmJ7WnW-DdL0n/",active:true},
  {code:"RAK-0002",name:"Organizer Laci Meja Serbaguna",category:"Kamar & Storage",image:"",emoji:"🗂️",price:35000,badge:"DISKON",description:"Pemisah barang kecil biar laci tidak berantakan.",affiliateUrl:"https://en.wikipedia.org/wiki/Drawer_(furniture)",active:true},
  {code:"RAK-0003",name:"Gantungan Pintu Tanpa Bor",category:"Kamar & Storage",image:"",emoji:"🪝",price:0,description:"Tempel kuat, tanpa melubangi dinding kos.",affiliateUrl:"https://en.wikipedia.org/wiki/Coat_hanger",active:true},
- {code:"RAK-0004",name:"Rice Cooker Mini 0,6 Liter",category:"Dapur & Makan",image:"",emoji:"🍚",price:0,description:"Masak nasi dan mi dengan satu alat kecil hemat tempat.",affiliateUrl:"https://en.wikipedia.org/wiki/Rice_cooker",active:true},
- {code:"RAK-0006",name:"Mangkuk Lipat Silikon",category:"Dapur & Makan",image:"",emoji:"🥣",price:0,description:"Bisa dilipat, praktis dibawa dan mudah disimpan.",affiliateUrl:"https://en.wikipedia.org/wiki/Bowl",active:true},
- {code:"RAK-0007",name:"Lampu Tidur LED Sentuh",category:"Gadget & Elektronik",image:"",emoji:"💡",price:0,description:"Cahaya hangat, cukup sentuh untuk menyala.",affiliateUrl:"https://en.wikipedia.org/wiki/Anglepoise_lamp",active:true},
- {code:"RAK-0008",name:"Kipas Angin Mini USB",category:"Gadget & Elektronik",image:"",emoji:"🌬️",price:0,description:"Tenaga USB, adem saat cuaca bikin gerah.",affiliateUrl:"https://en.wikipedia.org/wiki/Mechanical_fan",active:true},
- {code:"RAK-0009",name:"Stopkontak 4 Lubang + Kabel",category:"Gadget & Elektronik",image:"",emoji:"🔌",price:0,description:"Colokan cukup untuk charger, laptop, dan lampu.",affiliateUrl:"https://en.wikipedia.org/wiki/Power_strip",active:true},
- {code:"RAK-0010",name:"Sapu dan Pengki Mini",category:"Kebersihan & Kebutuhan Harian",image:"",emoji:"🧹",price:0,description:"Ukuran kecil, pas untuk membersihkan sudut kamar.",affiliateUrl:"https://en.wikipedia.org/wiki/Dustpan",active:true},
- {code:"RAK-0011",name:"Hanger Lipat Multifungsi",category:"Fashion & Aksesori",image:"",emoji:"👔",price:0,description:"Jemuran dan gantungan baju hemat ruang.",affiliateUrl:"https://en.wikipedia.org/wiki/Clothes_hanger",active:true},
- {code:"RAK-0012",name:"Tas Ransel Kampus Anti Air",category:"Fashion & Aksesori",image:"",emoji:"🎒",price:0,description:"Muat laptop dan buku, bahan tahan percikan hujan.",affiliateUrl:"https://en.wikipedia.org/wiki/Backpack",active:true}
  /* ▲ TAMBAH PRODUK BARU: salin satu baris di atas, ubah isinya, beri kode baru, jangan lupa koma. */
 ];
 
